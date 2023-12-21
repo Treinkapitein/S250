@@ -1,0 +1,91 @@
+#!/bin/bash
+
+# get the HDMI port
+get_base_board_info()
+{
+    c=`echo 'howcute121' | sudo -S sh -c "dmidecode | grep -A8 \"Base Board Information$\" | grep \"Product Name\""`
+    base_board=`echo $c | awk -F"Product Name: " '{print $2}'`
+}
+
+get_base_board_info
+echo $base_board
+if [ "$base_board" = "DG45FC" ]; then
+   HDMI_PORT="HDMI-1"
+else
+   HDMI_PORT="HDMI-2"
+fi
+
+DISPLAY=:0.0 /usr/bin/xhost +
+KIOSK_HOME="/etc/kioskhome"
+#HDMI_PORT="HDMI-2"
+if [ -f $KIOSK_HOME ]; then
+    KIOSK_HOME_DIR=`head -n 1 $KIOSK_HOME`
+else KIOSK_HOME_DIR="/home/mm"
+fi
+$KIOSK_HOME_DIR/kiosk/bin/mvmouse 800 -800
+
+xset s off -display :0.0
+xset -dpms -display :0.0
+
+sleep 1
+
+cd $KIOSK_HOME_DIR/kiosk/bin/
+python change_background.py
+
+HDMI1_CONNECTED=`xrandr -q | grep $HDMI_PORT | grep -w -i connected`
+VGA_CONNECTED=`xrandr -q | grep VGA | grep -i "connected 1024"`
+
+if [ "$HDMI_PORT" = "HDMI-1" ]
+then
+    xrandr --output HDMI-2 --off
+    sleep 1
+fi
+
+if [ "$HDMI1_CONNECTED" != "" ]
+then
+    xrandr --output $HDMI_PORT --off
+    sleep 1
+fi
+
+if [ "$VGA_CONNECTED" == "" ]
+then
+    xrandr --output VGA --auto
+    sleep 1
+fi
+
+xrandr --output VGA --rotate left
+
+python $KIOSK_HOME_DIR/kiosk/bin/change_background.py &
+
+sleep 2
+
+cd $KIOSK_HOME_DIR/kiosk/utilities/
+nohup ./externalIP.py &
+
+cd $KIOSK_HOME_DIR/kiosk/mkc2/
+./register.py
+
+cd $KIOSK_HOME_DIR/kiosk/utilities/
+nohup ./externalIP.py &
+
+cd $KIOSK_HOME_DIR/kiosk/sbin/
+./s250-updated.py
+
+dmr=`cat /etc/X11/default-display-manager`
+echo $dmr
+
+if [ "$dmr" = "false" ]; then
+    #DISPLAY=:0.0 python $KIOSK_HOME_DIR/kiosk/mkc2/gui/maintainForm.pyc &
+	DISPLAY=:0.0 nohup python $KIOSK_HOME_DIR/kiosk/mkc2/gui/maintainForm.pyc > /tmp/mnohup.out 2>&1 &
+fi
+
+
+cd $KIOSK_HOME_DIR/kiosk/mkc2/
+nohup ./mkc.py >nohup.out 2>&1 &
+
+
+cd $KIOSK_HOME_DIR/kiosk/tmp
+touch hdmimonitor.start
+
+echo "howcute121" | sudo -S sh -c "/home/mm/kiosk/bin/start_yespay.sh"
+echo "howcute121" | sudo -S sh "/home/mm/kiosk/bin/start_prosa.sh"

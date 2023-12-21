@@ -1,0 +1,585 @@
+MKC Version: V2 0.5.1
+23-12-16 11:23:05      INFO    mcommon ==========================================================================================
+
+23-12-16 11:23:05      INFO    mcommon ==================================== MKC START HERE ======================================
+
+23-12-16 11:23:05      INFO    mcommon ==========================================================================================
+
+23-12-16 11:23:05      INFO    UIPROXY [UIListener __init__] init UIListener ~~~~~~~~~~~~~~~~~
+
+23-12-16 11:23:05      INFO    UIPROXY [UIListener waitGuiConnect]Start waiting Qt gui init...
+
+23-12-16 11:23:05      INFO    UIPROXY [UIListener waitGuiConnect] wait qt gui to connect.
+
+23-12-16 11:23:05      INFO    UIPROXY [Stop Qt GUI] ...
+
+23-12-16 11:23:05      INFO    UIPROXY [Start Qt GUI] ...
+
+23-12-16 11:23:05      INFO    UIPROXY [UIListener run] ~~~~~~~~~~~~~~~~ only one! only one!
+
+23-12-16 11:23:05      INFO    UIPROXY [UIListener run] socket init ok
+
+23-12-16 11:23:06      INFO    UIPROXY [UIListener waitGuiConnect] wait qt gui to connect.
+
+23-12-16 11:23:06      INFO    UIPROXY [UIListener run] new client coming: 127.0.0.1
+
+23-12-16 11:23:09      INFO CONN_PROXY original db_sync
+
+23-12-16 11:23:09      INFO CONN_PROXY original db_sync_remote_kiosk
+
+23-12-16 11:23:09      INFO CONN_PROXY original db_sync_no_sequence
+
+23-12-16 11:23:09      INFO CONN_PROXY original media
+
+23-12-16 11:23:09      INFO CONN_PROXY original cc
+
+23-12-16 11:23:09      INFO CONN_PROXY original commands
+
+23-12-16 11:23:09      INFO CONN_PROXY original config
+
+23-12-16 11:23:09      INFO CONN_PROXY original events
+
+23-12-16 11:23:09      INFO CONN_PROXY original info
+
+23-12-16 11:23:09      INFO CONN_PROXY original postauthq
+
+23-12-16 11:23:09      INFO CONN_PROXY original declinedq
+
+23-12-16 11:23:09      INFO CONN_PROXY original preauthq
+
+23-12-16 11:23:09      INFO CONN_PROXY original price_plans
+
+23-12-16 11:23:09      INFO CONN_PROXY original rfid_cost
+
+23-12-16 11:23:09      INFO CONN_PROXY original rfids
+
+23-12-16 11:23:09      INFO CONN_PROXY original category
+
+23-12-16 11:23:09      INFO CONN_PROXY original shopping_carts
+
+23-12-16 11:23:09      INFO CONN_PROXY original slots
+
+23-12-16 11:23:09      INFO CONN_PROXY original transactions
+
+23-12-16 11:23:09      INFO CONN_PROXY original idx_transactions_out_time
+
+23-12-16 11:23:09      INFO CONN_PROXY original idx_transactions_in_time
+
+23-12-16 11:23:09      INFO CONN_PROXY original idx_transactions_state
+
+23-12-16 11:23:09      INFO CONN_PROXY original idx_transactions_upg_id
+
+23-12-16 11:23:09      INFO CONN_PROXY original upc_load_config
+
+23-12-16 11:23:09      INFO CONN_PROXY original upg
+
+23-12-16 11:23:09      INFO CONN_PROXY original reservations
+
+23-12-16 11:23:09      INFO CONN_PROXY original price_plans_week
+
+23-12-16 11:23:09      INFO CONN_PROXY original customer_behavior
+
+23-12-16 11:23:09      INFO CONN_PROXY original refunds
+
+23-12-16 11:23:09      INFO CONN_PROXY original card_read
+
+23-12-16 11:23:09      INFO CONN_PROXY original trs_process
+
+23-12-16 11:23:09      INFO CONN_PROXY original over_capacity_rfids
+
+23-12-16 11:23:09      INFO CONN_PROXY original remote_arrangement_plans
+
+23-12-16 11:23:09      INFO CONN_PROXY original cerepay_topup
+
+23-12-16 11:23:09      INFO CONN_PROXY original failed_trs
+
+23-12-16 11:23:09      INFO       main set MKC to movie theme
+
+['\x02', 'Y', 'Y', '\x03']
+['\x02', 'A', '0', '1', '0', '\x03']
+['\x02', 'R', '0', 'A', '0', '1', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '1', '6', '\x03']
+reply: +ok|SUCCESS|
+-->
+23-12-16 11:23:10      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS| 
+
+['\x02', 'A', '0', '3', '0', '\x03']
+['\x02', 'R', '0', 'B', '0', '3', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '1', '6', '\x03']
+reply: +ok|SUCCESS|
+-->
+23-12-16 11:23:10      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS| 
+
+23-12-16 11:23:10      INFO guiMainForm default language is en
+
+23-12-16 11:23:10      INFO guiMainForm language list is 
+
+23-12-16 11:23:10     ERROR CONN_PROXY httpCall exception: (111, 'Connection refused')
+
+23-12-16 11:23:10      INFO    UIPROXY WILL SEND MSG type:<type 'str'>, context:{"wid": "", "cid": "", "cmd": "initGUI", "param_info": {}, "type": "COMMAND", "id": "400jy5"}
+
+23-12-16 11:23:10      INFO    mcommon Init Machine to [4.914], [200], [90.0], [0.0], [390.095], [27091], [27297], [0], [10.0], [0.0]
+
+['\x02', 'A', '0', '5', '0', '\x03', '\x02', 'R', '0', 'C', '0', '5', '+', 'o', 'k', '|', 'p', 'a', 'n', 'g', '2', '7', '\x03']
+reply: +ok|pang
+-->
+23-12-16 11:23:10      INFO    CONTROL raw reply from rabbit: +ok|pang 
+
+['\x02', 'A', '0', '7', '0', '\x03', '\x02', 'R', '0', 'D', '0', '7', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '1', '0', '7', '7', '\x03']
+reply: +ok|SUCCESS|10
+-->
+23-12-16 11:23:10      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|10 
+
+['\x02', 'A', '0', '9', '0', '\x03']
+['\x02', 'R', '0', 'E', '0', '9', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '0', '4', '6', '\x03']
+reply: +ok|SUCCESS|0
+-->
+23-12-16 11:23:11      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|0 
+
+['\x02', 'A', '0', 'b', '0', '\x03']
+['\x02', 'R', '0', 'F', '0', 'b', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '4', '4', 'A', '\x03']
+reply: +ok|SUCCESS|4
+-->
+23-12-16 11:23:11      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|4 
+
+['\x02', 'A', '0', 'd', '0', '\x03', '\x02', 'R', '1', '0', '0', 'd', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '0', '4', '6', '\x03']
+reply: +ok|SUCCESS|0
+-->
+23-12-16 11:23:11      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|0 
+
+['\x02', 'A', '0', 'f', '0', '\x03', '\x02', 'R', '1', '1', '0', 'f', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '9', '0', '7', 'F', '\x03']
+reply: +ok|SUCCESS|90
+-->
+23-12-16 11:23:11      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|90 
+
+['\x02', 'A', '1', '1', '0', '\x03', '\x02', 'R', '1', '2', '1', '1', '+', 'o']
+['\x02', 'R', '1', '2', '1', '1', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '2', '0', '0', 'A', '8', '\x03']
+reply: +ok|SUCCESS|200
+-->
+23-12-16 11:23:11      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|200 
+
+['\x02', 'A', '1', '3', '0', '\x03']
+['\x02', 'R', '1', '3', '1', '3', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '3', '9', '0', '.', '0', '9', '5', '0', '0', '1', '0', 'F', '\x03']
+reply: +ok|SUCCESS|390.095001
+-->
+23-12-16 11:23:11      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|390.095001 
+
+['\x02', 'A', '1', '5', '0', '\x03']
+['\x02', 'R', '1', '4', '1', '5', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '0', '4', '6', '\x03']
+reply: +ok|SUCCESS|0
+-->
+23-12-16 11:23:11      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|0 
+
+['\x02', 'A', '1', '7', '0', '\x03']
+['\x02', 'R', '0', 'A', '1', '7', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '2', '7', '0', '9', '1', '1', '9', '\x03']
+reply: +ok|SUCCESS|27091
+-->
+23-12-16 11:23:12      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|27091 
+
+['\x02', 'A', '1', '9', '0', '\x03']
+['\x02', 'R', '0', 'B', '1', '9', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '2', '7', '2', '9', '7', '2', '1', '\x03']
+reply: +ok|SUCCESS|27297
+-->
+23-12-16 11:23:12      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|27297 
+
+['\x02', 'A', '1', 'b', '0', '\x03', '\x02', 'R', '0', 'C', '1', 'b', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '1', '6', '\x03']
+reply: +ok|SUCCESS|
+-->
+23-12-16 11:23:12      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS| 
+
+23-12-16 11:23:12      INFO       main [Main run] ROBOT INIT: 0, 
+
+['\x02', 'A', '1', 'd', '0', '\x03', '\x02', 'R', '0', 'D', '1', 'd', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '0', '4', '6', '\x03']
+reply: +ok|SUCCESS|0
+-->
+23-12-16 11:23:12      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|0 
+
+['\x02', 'A', '1', 'f', '0', '\x03']
+['\x02', 'R', '0', 'E', '1', 'f', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '0', '4', '6', '\x03']
+reply: +ok|SUCCESS|0
+-->
+23-12-16 11:23:13      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|0 
+
+['\x02', 'A', '2', '1', '0', '\x03']
+['\x02', 'R', '0', 'F', '2', '1', '+', 'o', 'k', '|', 'S', 'U', 'C', 'C', 'E', 'S', 'S', '|', '0', '4', '6', '\x03']
+reply: +ok|SUCCESS|0
+-->
+23-12-16 11:23:17      INFO    CONTROL raw reply from rabbit: +ok|SUCCESS|0 
+
+23-12-16 11:23:17      INFO       main [Main run] SENSOR DECECT: 0, test lr sensor OK.bit=0. test fb sensor OK.value=0. lr sensor OK.value=0.
+
+23-12-16 11:23:17      INFO guiBaseForms -------------------- RecoverTakeInForm --------------------
+
+23-12-16 11:23:17      INFO guiRecoverTakeInForm ================ Recover Taken in Form starting ================
+
+23-12-16 11:23:17      INFO    UIPROXY WILL SEND MSG type:<type 'str'>, context:{"wid": "", "cid": "", "cmd": "gotoWindow", "param_info": {"wid": "RecoverTakeInForm"}, "type": "COMMAND", "id": "x882s7"}
+
+23-12-16 11:23:17      INFO    UIPROXY WILL SEND MSG type:<type 'str'>, context:{"wid": "RecoverTakeInForm", "cid": "txt_msg", "cmd": "setText", "param_info": {"text": "System initializing ..."}, "type": "COMMAND", "id": "2tb085"}
+
+23-12-16 11:23:17      INFO    UIPROXY WILL SEND MSG type:<type 'str'>, context:{"wid": "RecoverTakeInForm", "cid": "swf_send_disc", "cmd": "hide", "param_info": {}, "type": "COMMAND", "id": "6do5v5"}
+
+['\x02', 'A', '2', '3', '0', '\x03']
+['\x02', 'R', '1', '0', '2', '3', '-', 'e', 'r', 'r', '|', 'T', 'I', 'M', 'E', 'O', 'U', 'T', '|', 'l', 'e', 'n', ' ', 'e', 'r', 'r', 'o', 'r', '1', 'E', '\x03']
+reply: -err|TIMEOUT|len error
+-->
+23-12-16 11:23:20      INFO    CONTROL raw reply from rabbit: -err|TIMEOUT|len error 
+
+['\x02', 'A', '2', '5', '0', '\x03']
+['\x02', 'R', '1', '1', '2', '5', '-', 'e', 'r', 'r', '|', 'T', 'I', 'M', 'E', 'O', 'U', 'T', '|', 'l', 'e', 'n', ' ', 'e', 'r', 'r', 'o', 'r', '1', 'E', '\x03']
+reply: -err|TIMEOUT|len error
+-->
+23-12-16 11:23:24      INFO    CONTROL raw reply from rabbit: -err|TIMEOUT|len error 
+
+['\x02', 'A', '2', '7', '0', '\x03']
+['\x02', 'R', '1', '2', '2', '7', '-', 'e', 'r', 'r', '|', 'T', 'I', 'M', 'E', 'O', 'U', 'T', '|', 'l', 'e', 'n', ' ', 'e', 'r', 'r', 'o', 'r', '1', 'E', '\x03']
+reply: -err|TIMEOUT|len error
+-->
+23-12-16 11:23:27      INFO    CONTROL raw reply from rabbit: -err|TIMEOUT|len error 
+
+23-12-16 11:23:27      INFO guiRecoverTakeInForm [RecoverTakeInForm] - Read RFID failed.
+
+23-12-16 11:23:27      INFO guiMainForm =======================================
+
+23-12-16 11:23:27      INFO guiMainForm =   Main Form Initializing ......     =
+
+23-12-16 11:23:27      INFO guiMainForm set language to en
+
+23-12-16 11:23:27      INFO guiBaseForms -------------------- MainForm --------------------
+
+23-12-16 11:23:27      INFO    UIPROXY WILL SEND MSG type:<type 'str'>, context:{"wid": "", "cid": "", "cmd": "setLanguage", "param_info": {"lang": "en"}, "type": "COMMAND", "id": "zsgv29"}
+
+23-12-16 11:23:27      INFO    UIPROXY WILL SEND MSG type:<type 'str'>, context:{"wid": "", "cid": "", "cmd": "gotoWindow", "param_info": {"wid": "MainForm"}, "type": "COMMAND", "id": "m7illy"}
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 111111000107
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543834250
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543868651
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192161445
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396415959
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192158230
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883929241361
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 032429129192
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543832577
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 013132597218
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 032429129406
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 013132597256
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 786936830330
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192150548
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 166617
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396416987
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 940781
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 126801
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 786936823004
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192123719
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883929241392
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883904285335
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 097361700045
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396413733
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192157837
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543832898
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396413511
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396409675
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543800040
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396409606
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192114694
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396408043
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883929212569
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 786936818093
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396402881
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 786936813111
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396409415
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396409521
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883929240746
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543773528
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 032429120106
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396405578
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 794043154973
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883929240777
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 786936819175
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192122248
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 031398156512
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 031398156246
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 097363569343
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192104459
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192132490
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 031398154174
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396403765
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543783053
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192114106
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396399785
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 097363488149
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883929240463
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 883929191888
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192098505
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 031398152736
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 025192143113
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 099905144193
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 024543767770
+
+23-12-16 11:23:36      INFO MOVIE_PROXY Get trailer name for upc 043396398054
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 031398152156
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929239528
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 794043157813
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192104381
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363558842
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 013132471396
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543752967
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192074547
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396395978
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543737445
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 099905140805
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543752035
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 530367
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543776260
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363581444
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192076619
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396394919
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192108501
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 031398147558
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396388338
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396392496
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192130502
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396392250
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543751113
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929191758
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 013132321394
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396385269
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543749851
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192074776
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543737582
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929140404
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 786936814309
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396387218
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396388130
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 013132367095
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 013132330396
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363552840
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192082931
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929140459
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929192687
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543740681
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 099905129916
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 786936813081
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396385771
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 786936812442
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 099905130707
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929140237
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 794043150067
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396376731
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363560449
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192076251
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097361439648
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543750871
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192074677
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 031398140948
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396384309
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192043536
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192044236
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543714903
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396380196
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192104886
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543759362
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929191161
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 094995
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363548348
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396381551
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 031398137054
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396335301
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929140435
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396376915
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543746539
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929189618
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929136902
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396376793
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192073540
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363532842
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 786936812664
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396379411
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 794043144622
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363519546
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396376854
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929139446
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543707417
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 025192044250
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543715061
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 043396374041
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 031398134251
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543736325
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097361329949
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929152018
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929139170
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363563044
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 786936810622
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097361329642
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 031398128427
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097361196947
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 024543669197
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 606785
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 097363536048
+
+23-12-16 11:23:37      INFO MOVIE_PROXY Get trailer name for upc 883929057832
+
+23-12-16 11:23:37      INFO guiMainForm =   Main Form Initialized             =
+
+23-12-16 11:23:37      INFO guiMainForm =======================================
+
+23-12-16 11:23:37      INFO    UIPROXY WILL SEND MSG type:<type 'str'>, context:{"wid": "MainForm", "cid": "ctr_movie_list", "cmd": "setMovieList", "param_info": {"ctr_movie_list": [{"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160939.jpg", "upc": "111111000107"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160922.jpg", "upc": "024543834250"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160890.jpg", "upc": "024543868651"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160892.jpg", "upc": "025192161445"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160706.jpg", "upc": "043396415959"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160707.jpg", "upc": "025192158230"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160432.jpg", "upc": "883929241361"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160463.jpg", "upc": "032429129192"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160506.jpg", "upc": "024543832577"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160510.jpg", "upc": "013132597218"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160512.jpg", "upc": "032429129406"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160503.jpg", "upc": "013132597256"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160182.jpg", "upc": "786936830330"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160335.jpg", "upc": "025192150548"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160423.jpg.png", "upc": "166617"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160334.jpg", "upc": "043396416987"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160302.jpg", "upc": "940781"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160310.jpg", "upc": "126801"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160291.jpg.png", "upc": "786936823004"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159484.jpg", "upc": "025192123719"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160102.jpg", "upc": "883929241392"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160210.jpg", "upc": "883904285335"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/160101.jpg", "upc": "097361700045"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159783.jpg", "upc": "043396413733"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159941.jpg", "upc": "025192157837"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159940.jpg", "upc": "024543832898"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159813.jpg", "upc": "043396413511"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159741.jpg", "upc": "043396409675"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159730.jpg", "upc": "024543800040"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159737.jpg", "upc": "043396409606"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159459.jpg", "upc": "025192114694"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159656.jpg", "upc": "043396408043"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159458.jpg", "upc": "883929212569"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159658.jpg.png", "upc": "786936818093"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158822.jpg", "upc": "043396402881"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159461.jpg", "upc": "786936813111"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159427.jpg", "upc": "043396409415"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159401.jpg", "upc": "043396409521"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159490.jpg", "upc": "883929240746"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159158.jpg", "upc": "024543773528"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159126.jpg", "upc": "032429120106"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159153.jpg", "upc": "043396405578"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/159105.jpg", "upc": "794043154973"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158823.jpg", "upc": "883929240777"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158525.jpg.png", "upc": "786936819175"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158897.jpg", "upc": "025192122248"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158896.jpg", "upc": "031398156512"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158901.jpg", "upc": "031398156246"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158532.jpg", "upc": "097363569343"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157267.jpg", "upc": "025192104459"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158325.jpg", "upc": "025192132490"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158420.jpg", "upc": "031398154174"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158418.jpg", "upc": "043396403765"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158417.jpg", "upc": "024543783053"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158324.jpg", "upc": "025192114106"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158131.jpg", "upc": "043396399785"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158165.jpg", "upc": "097363488149"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158322.jpg", "upc": "883929240463"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158158.jpg", "upc": "883929191888"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158166.jpg", "upc": "025192098505"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158162.jpg", "upc": "031398152736"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/158044.jpg", "upc": "025192143113"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157940.jpg", "upc": "099905144193"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157933.jpg", "upc": "024543767770"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157934.jpg", "upc": "043396398054"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157902.jpg", "upc": "031398152156"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157900.jpg", "upc": "883929239528"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157897.jpg", "upc": "794043157813"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157636.jpg", "upc": "025192104381"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157633.jpg", "upc": "097363558842"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157637.jpg", "upc": "013132471396"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157305.jpg", "upc": "024543752967"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157306.jpg", "upc": "025192074547"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157307.jpg", "upc": "043396395978"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157316.jpg", "upc": "024543737445"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157311.jpg", "upc": "099905140805"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157415.jpg", "upc": "024543752035"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157315.jpg", "upc": "530367"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157309.jpg", "upc": "024543776260"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157175.jpg", "upc": "097363581444"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157135.jpg", "upc": "025192076619"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157139.jpg", "upc": "043396394919"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156940.jpg", "upc": "025192108501"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156961.jpg", "upc": "031398147558"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157044.jpg", "upc": "043396388338"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156974.jpg", "upc": "043396392496"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156935.jpg", "upc": "025192130502"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156936.jpg", "upc": "043396392250"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/157000.jpg", "upc": "024543751113"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156911.jpg", "upc": "883929191758"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156777.jpg", "upc": "013132321394"}, {"is_bluray": "1", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156751.jpg", "upc": "043396389403"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156754.jpg", "upc": "043396385269"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156739.jpg", "upc": "024543749851"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156577.jpg", "upc": "025192074776"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156776.jpg", "upc": "024543737582"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156747.jpg", "upc": "883929140404"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156748.jpg", "upc": "786936814309"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156725.jpg", "upc": "043396387218"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156521.jpg", "upc": "043396388130"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156524.jpg", "upc": "013132367095"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156520.jpg", "upc": "013132330396"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156518.jpg", "upc": "097363552840"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156523.jpg", "upc": "025192082931"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156516.jpg", "upc": "883929140459"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156515.jpg", "upc": "883929192687"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156229.jpg", "upc": "024543740681"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156312.jpg", "upc": "099905129916"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156289.jpg", "upc": "786936813081"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156285.jpg", "upc": "043396385771"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156209.jpg", "upc": "786936812442"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156281.jpg", "upc": "099905130707"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156281.jpg", "upc": "883929140237"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156284.jpg", "upc": "794043150067"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156288.jpg", "upc": "043396376731"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156061.jpg", "upc": "097363560449"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156111.jpg", "upc": "025192076251"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156060.jpg", "upc": "097361439648"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156105.jpg", "upc": "024543750871"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/156106.jpg", "upc": "025192074677"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155894.jpg", "upc": "031398140948"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155898.jpg", "upc": "043396384309"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155674.jpg", "upc": "025192043536"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155960.jpg", "upc": "025192044236"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155893.jpg", "upc": "024543714903"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155895.jpg", "upc": "043396380196"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155665.jpg", "upc": "025192104886"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155721.jpg", "upc": "024543759362"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155664.jpg", "upc": "883929191161"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155663.jpg", "upc": "094995"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155663.jpg", "upc": "097363548348"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155722.jpg", "upc": "043396381551"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155661.jpg", "upc": "031398137054"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155555.jpg", "upc": "043396335301"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155545.jpg", "upc": "883929140435"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155541.jpg", "upc": "043396376915"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155571.jpg", "upc": "024543746539"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155542.jpg", "upc": "883929189618"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155641.jpg", "upc": "883929136902"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155538.jpg", "upc": "043396376793"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155550.jpg", "upc": "025192073540"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155539.jpg", "upc": "097363532842"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155287.jpg", "upc": "786936812664"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155295.jpg", "upc": "043396379411"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155290.jpg", "upc": "794043144622"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155284.jpg", "upc": "097363519546"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155279.jpg", "upc": "043396376854"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155082.jpg", "upc": "883929139446"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155085.jpg", "upc": "024543707417"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/155083.jpg", "upc": "025192044250"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/154951.jpg", "upc": "024543715061"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/154905.jpg", "upc": "043396374041"}, {"is_bluray": "0", "movie_pic": "\/home\/mm\/kiosk\/var\/gui\/newpic\/154254.jpg", "upc": "031398134251"}, {"is_blur

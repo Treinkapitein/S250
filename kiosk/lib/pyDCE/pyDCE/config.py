@@ -1,0 +1,85 @@
+import logging
+import logging.handlers
+
+DEBUG_RUN=1
+
+##############Log Configuration############
+LOG_FILE_NAME='DCELog.log'
+LOG_MODE_TTY=1       # print the message int tty
+LOG_MODE_REMOTE=2    # remote debugging
+
+LOG_FORMAT='%(thread)d %(asctime)s %(levelname)s %(message)s'
+LOG_REMOTE_HOST='localhost'
+LOG_REMOTE_PORT= logging.handlers.DEFAULT_TCP_LOGGING_PORT
+LOG_LEVEL=logging.DEBUG
+LOG_CONSOLE_LEVEL=logging.DEBUG
+LOG_FORMAT='%(asctime)s %(levelname)s %(message)s'
+LOG_FILE_ROOT="/home/mm/lib/pyDCE_utils/log/"
+LOG_MODE=LOG_MODE_TTY|LOG_MODE_REMOTE
+LOG_ROTATE_SIZE=10*1024*1024
+LOG_ROTATE_COUNT=5
+###########################################
+
+NODE_HEART_BEAT=10.0
+
+DCE_LISTEN_BACKLOG=200
+DCE_ACCEPT_READ_TIMEOUT=5000
+DCE_POLL_TIMEOUT=5000
+DCE_SEND_MSG_TIMEOUT=5000
+DCE_GET_RESPONSE_TIMEOUT=5000
+
+DCE_DEFAULT_TIMEOUT_MS=120000
+DCE_DEFAULT_TIMEOUT=120
+
+####################################
+
+
+CERT_DIR="/home/mm/lib/pyDCE_utils/certs"
+CLIENT_CERT="client.pem"
+SERVER_CERT="server.pem"
+CA_FILE="ca.pem"
+SERVER_KEY_FILE="server_key.pem"
+CLIENT_KEY_FILE="client_key.pem"
+KEY_PASSPHRASE="12345"
+
+ALLOW_UNKOWN_CA=0
+
+####################################
+
+
+PYDCE_DEFAULT_TCP_PORT=9990
+PYDCE_DEFAULT_SSL_PORT=9900
+
+DEFAULT_TCP_POLL_TIMEOUT=5000  #msec
+DEFAULT_TCP_WAIT_TIMEOUT=1000
+DEFAULT_TCP_SEND_TIMEOUT=5000
+DEFAULT_TCP_RECV_TIMEOUT=5000
+DEFAULT_TCP_SEND_BUFFER=32*1024
+DEFAULT_TCP_RECV_BUFFER=32*1024
+DEFAULT_POLL_READ_TIMEOUT=2000
+DEFAULT_POLL_WRITE_TIMEOUT=2000
+
+DEFAULT_TCP_KEEP_INTERVAL=5   # 5 s
+DEFAULT_TCP_KEEP_COUNT=1
+DEFAULT_TCP_KEEP_IDLE=5
+
+MAX_MESSAGE_LENGTH=10485760 #10M
+
+####################################
+###configuration for dynamic node###
+NODE_HEART_BEAT=20
+
+EXTERNAL_IP=None
+
+
+
+
+
+
+
+
+
+
+
+
+

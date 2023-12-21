@@ -1,0 +1,20 @@
+    简介：
+        Kiosk通过两级SSH管道实现与应用服务器的通讯。
+        
+        一级管道， 由Kiosk发起， 从Kiosk回环网络接口的端口A发起， 链接到AccessNode上的端口B。
+        一级管道， 由AccessNode发起从端口B到应用服务器上的端口C的管道。
+    
+    组成：
+        config.py 主配置文件
+            WORKING_SIDE， 配置主程序工作方式， 可能的值为'ACCESS'或'KIOSK'
+            当工作在'KIOSK'时， 填写ACCESS_NODE
+            
+            TUNNEL_PAIRS， 配置需要建立的TUNNEL
+            
+            CHECK_INTERVAL， 主程序会定期维护管道， 以保证通讯质量， 这个参数设置检查的间隔时间， 单位秒
+        
+        mka2.py 主程序
+            mka2会根据WORKING_SIDE自动决定其行为， mka2为每个TUNNEL_PAIR产生一根监管线程。
+    
+    部署：
+        由系统管理员同一编写TUNNEL_PAIRS， 在kiosk和access node端写不同的WORKING_SIDE， 根据网络情况决定CHECK_INTERVAL。
